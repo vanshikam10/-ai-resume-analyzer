@@ -59,6 +59,3 @@ Open **http://localhost:5000** in your browser.
 3. Match % = overlapping skills / JD skills × 100
 4. Score ring + feedback cards rendered
 
-## License
-
-MIT
