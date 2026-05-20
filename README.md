@@ -1,4 +1,4 @@
-# 🧠 ResumeIQ — AI Resume Analyzer
+# 🧠 AI Resume Analyzer
 
 <div align="center">
 
@@ -44,7 +44,7 @@ Deploy   →  Render (free tier) / Heroku / Railway
 ## 📂 Project Structure
 
 ```
-resumeiq/
+ai-resume-analyzer/
 ├── app.py              ← Flask backend (NLP + PDF + matching logic)
 ├── requirements.txt    ← All Python dependencies
 ├── Procfile            ← For Render / Heroku deployment
@@ -67,8 +67,8 @@ resumeiq/
 ### 1 — Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/resumeiq.git
-cd resumeiq
+git clone https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
+cd ai-resume-analyzer
 ```
 
 ### 2 — Virtual Environment
@@ -103,16 +103,16 @@ Open **http://localhost:5000** 🎉
 
 ## ☁️ Deploy to Render (Free — Shareable Link)
 
-> Render gives you a **free public URL** like `https://resumeiq.onrender.com`
+> Render gives you a **free public URL** like `https://ai-resume-analyzer.onrender.com`
 
 ### Step 1 — Push to GitHub
 
 ```bash
 git init
 git add .
-git commit -m "feat: initial ResumeIQ project"
+git commit -m "feat: initial AI Resume Analyzer project"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/resumeiq.git
+git remote add origin https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
 git push -u origin main
 ```
 
@@ -120,7 +120,7 @@ git push -u origin main
 
 1. Go to **[render.com](https://render.com)** → Sign up free with GitHub
 2. Click **"New +"** → **"Web Service"**
-3. Connect your GitHub repo → select `resumeiq`
+3. Connect your GitHub repo → select `ai-resume-analyzer`
 4. Render auto-detects settings from `render.yaml`
 5. Click **"Create Web Service"**
 6. Wait ~2 min → get your live URL ✅
